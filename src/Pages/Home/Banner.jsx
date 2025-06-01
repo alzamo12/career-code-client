@@ -18,7 +18,7 @@ const Banner = () => {
 
                         }}
                         src={team1}
-                        className="h-52 md:h-80 rounded-lg shadow-2xl"
+                        className="h-52 lg:h-60 xl:h-72 lg:w-72 xl:w-96 2xl:w-auto 2xl:h-80 rounded-lg shadow-2xl"
                     />
                     <motion.img
                         animate={{
@@ -26,7 +26,7 @@ const Banner = () => {
                             x: width > 1023 ? [100, 200, 100] : [-10, 130, -10],
                         }}
                         src={team2}
-                        className="h-32 md:h-80 rounded-lg shadow-2xl"
+                        className="h-32 lg:h-60 xl:h-72 lg:w-72 xl:w-96 2xl:w-auto 2xl:h-80 rounded-lg shadow-2xl"
                     />
                 </div>
                 <div className="flex-1">
